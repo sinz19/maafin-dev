@@ -1,0 +1,47 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D2691E; /* Warna coklat */
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background-color: #FFC0CB; /* Warna pink */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 20px;
+            max-width: 400px;
+            position: relative;
+        }
+        .emoji {
+            font-size: 100px;
+        }
+        .title {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+            position: relative;
+        }
+        .button:hover {
+            background-color: #ff4500;
+        }
+        .button:disabled {
+            background-color: #d3d3d3;
+            cursor: not-allowed;
+        }
+
